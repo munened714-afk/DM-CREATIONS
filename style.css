@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    text-align: center;
+    background-color: aliceblue;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    }
+
+.header{
+    padding: 30px;
+    background-color: rgba(29, 6, 133, 0.986);
+}
+
+.header h1{
+    font-weight: bold;
+    color: white;
+    letter-spacing: 0px;
+}
+.header p{
+    color: rgb(236, 181, 181);
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.navbar{
+    padding: 15px;
+    background-color: rgb(92, 64, 204);
+}
+
+.navbar a{
+    margin: 10px;
+    color: rgb(15, 2, 2);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.hero{
+    padding: 150px 20px;
+    font-weight: bold;
+    color: white;
+    background-image: url("images/bg2.jpg.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero ul{
+    margin-top: 5px;
+    color: rgb(70, 238, 18)
+}
+
+.hero p{
+    color: black;
+    font-weight: 650;
+    margin-bottom: 28px;
+}
+
+.hero h2{
+    color: black;
+    text-decoration: underline;
+}
+
+.hero a{
+    color: white;
+    background-color: rgb(18, 156, 103);
+    padding: 8px;
+    border-radius: 7px;
+    margin-top: 15px;
+}
+
+.hero a:hover{
+    transition: 0.3s;
+    background-color: rgb(2, 17, 17);
+}
+
+.features{
+    background-color: rgb(79, 19, 197);
+    padding: 40px;
+    justify-content: center;
+    gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer{
+    background-color: rgb(7, 7, 53);
+    padding: 20px;
+    color: aliceblue;
+}
+.card{
+    background-color: rgb(217, 214, 230);
+    padding: 30px;
+    width: 250px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.card h3{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card p{
+    font-weight: 200;
+    color: black;
+    margin-top: 10px;
+
+}
+
+.navbar a:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+.contacts{
+    padding: 50px;
+    background-color: rgb(51, 51, 155);
+}
+
+.contacts a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: 0.3s;
+    background-color: rgb(53, 170, 102);
+    padding: 7px;
+    border-radius: 8px;
+}
+
+.contacts a:hover{
+    transition: 0.3s;
+    background-color: rgb(1, 17, 3);
+}
+
+.contacts h4{
+    color: rgb(0, 3, 0);
+    margin-bottom: 15px;
+    font-weight: 800;
+}
