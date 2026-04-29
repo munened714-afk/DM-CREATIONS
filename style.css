@@ -134,6 +134,8 @@ body{
     background-color: rgb(53, 170, 102);
     padding: 7px;
     border-radius: 8px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contacts a:hover{
